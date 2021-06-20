@@ -6,6 +6,18 @@
     app:startDestination="@+id/navigation_home">
 
     <fragment
+        android:id="@+id/navigation_basic_info"
+        android:name="com.example.werewolfthegenerator.ui.basicinfo.BasicInfoFragment"
+        android:label="@string/title_basic_info"
+        tools:layout="@layout/basic_info_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_attributes"
+        android:name="com.example.werewolfthegenerator.ui.attributes.AttributesFragment"
+        android:label="@string/title_attributes"
+        tools:layout="@layout/attributes_fragment" />
+
+    <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.werewolfthegenerator.ui.home.HomeFragment"
         android:label="@string/title_home"

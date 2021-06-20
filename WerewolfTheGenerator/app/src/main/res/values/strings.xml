@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">WerewolfTheGenerator</string>
+    <string name="app_name_title">Werewolf: The Generator</string>
+    <string name="title_activity_navigation">MainActivity</string>
+
+    <!-- Home screen strings -->
+    <string name="button_new_character">New Character</string>
+
+    <string name="title_basic_info">Basic Info</string>
+    <string name="title_attributes">Attributes</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
