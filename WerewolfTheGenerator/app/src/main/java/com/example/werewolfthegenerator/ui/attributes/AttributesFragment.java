@@ -30,8 +30,8 @@ public class AttributesFragment extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         attributesViewModel =
                 new ViewModelProvider(this).get(AttributesViewModel.class);
-        View root = inflater.inflate(R.layout.basic_info_fragment, container, false);
-        final TextView textView = root.findViewById(R.id.text_dashboard);
+        View root = inflater.inflate(R.layout.attributes_fragment, container, false);
+        final TextView textView = root.findViewById(R.id.text_attributes);
         attributesViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

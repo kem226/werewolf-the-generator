@@ -5,6 +5,7 @@
 
     <!-- Home screen strings -->
     <string name="button_new_character">New Character</string>
+    <string name="button_load_character">Load Character</string>
 
     <string name="title_basic_info">Basic Info</string>
     <string name="title_attributes">Attributes</string>

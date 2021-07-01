@@ -31,7 +31,7 @@ public class BasicInfoFragment extends Fragment {
         basicInfoViewModel =
                 new ViewModelProvider(this).get(BasicInfoViewModel .class);
         View root = inflater.inflate(R.layout.basic_info_fragment, container, false);
-        final TextView textView = root.findViewById(R.id.text_dashboard);
+        final TextView textView = root.findViewById(R.id.text_basic_info);
         basicInfoViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
