@@ -1,16 +1,16 @@
-package com.example.werewolfthegenerator.ui.dashboard;
+package com.example.werewolfthegenerator.ui.backgrounds;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class DashboardViewModel extends ViewModel {
+public class BackgroundsViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public DashboardViewModel() {
+    public BackgroundsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is backgrounds fragment");
     }
 
     public LiveData<String> getText() {

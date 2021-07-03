@@ -9,7 +9,7 @@
 
     <string name="title_basic_info">Basic Info</string>
     <string name="title_attributes">Attributes</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_abilities">Abilities</string>
+    <string name="title_backgrounds">Backgrounds</string>
+    <string name="title_gifts">Gifts</string>
 </resources>

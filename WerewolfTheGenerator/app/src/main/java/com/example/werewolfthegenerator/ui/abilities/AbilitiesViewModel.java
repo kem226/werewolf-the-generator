@@ -1,16 +1,16 @@
-package com.example.werewolfthegenerator.ui.home;
+package com.example.werewolfthegenerator.ui.abilities;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class AbilitiesViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public AbilitiesViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("This is abilities fragment");
     }
 
     public LiveData<String> getText() {

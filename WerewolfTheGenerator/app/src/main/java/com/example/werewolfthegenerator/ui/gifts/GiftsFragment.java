@@ -1,4 +1,4 @@
-package com.example.werewolfthegenerator.ui.dashboard;
+package com.example.werewolfthegenerator.ui.gifts;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.werewolfthegenerator.R;
 
-public class DashboardFragment extends Fragment {
+public class GiftsFragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
+    private GiftsViewModel giftsViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        dashboardViewModel =
-                new ViewModelProvider(this).get(DashboardViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
-        final TextView textView = root.findViewById(R.id.text_dashboard);
-        dashboardViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        giftsViewModel =
+                new ViewModelProvider(this).get(GiftsViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_gifts, container, false);
+        final TextView textView = root.findViewById(R.id.text_gifts);
+        giftsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

@@ -15,7 +15,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.werewolfthegenerator.R;
-import com.example.werewolfthegenerator.ui.dashboard.DashboardViewModel;
 
 public class BasicInfoFragment extends Fragment {
 
